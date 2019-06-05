@@ -1,6 +1,7 @@
 /*
 * CSS › Powered by AsaUz
-* Link: t.me/asa_uz
+* CSS › Edit: 03.05.2019
+* Link: https://t.me/asa_uz
 */
 
 html body {
@@ -32,9 +33,7 @@ header {
 padding : 20px;
 background-color : #2da3c9;
 color : rgb(0, 0, 0); font-size : 1rem; /* 36px */
-} 
-
-header > h1 {
+} header > h1 {
 margin : 0;
 }
 
@@ -58,43 +57,30 @@ display : inline-block;
 background-color : #f44336;
 color : rgb(255, 255, 255);
 text-decoration : none;
-}
-
-a:hover, a:active {
+} a:hover, a:active {
 background-color : #2da3c9;
 text-decoration : none;
-}
-
-nav {
+} nav {
 overflow : hidden;
 background-color : #333;
-}
-
-nav a {
+} nav a {
 display : block;
 float : left;
 color : #f2f2f2;
 text-decoration : none;
 padding : 10px;
-}
-
-nav a:hover { background : #2da3c9; color : rgb(255, 255, 255); }
-
-nav ul, li {
+} nav a:hover { background : #2da3c9; color : rgb(255, 255, 255);
+} nav ul, li {
 list-style : none;
 margin : 0;
 padding: 0;
-}
-
-nav li a {
+} nav li a {
 display : block;
 float : left;
 color : #f2f2f2;
 text-decoration : none;
 padding : 10px;
-}
-
-.active { background-color : #2da3c9; color : rgb(255, 255, 255); }
+} .active { background-color : #2da3c9; color : rgb(255, 255, 255); }
 /* end › nav */
 
 /* input */
@@ -106,11 +92,8 @@ border : none; border-radius : 20px;
 margin : 8px 0; padding : 12px 10px;
 box-sizing : border-box;
 transition : width 0.2s ease-in-out;
-}
-
-input:focus { width : 100%; }
-
-textarea {
+} input:focus { width : 100%;
+} textarea {
 padding : 12px 20px;
 width : 100%; height : 200px;
 padding : 12px 20px;
@@ -119,9 +102,7 @@ background-color : white;
 color : black;
 border : none; resize : none;
 border-radius : 20px;
-}
-
-select {
+} select {
 width : 100%;
 padding : 16px 20px;
 border : none;
@@ -174,7 +155,9 @@ background : transparent;
 
 blockquote { text-indent: 30px; }
 
-sub, sup, small { font-size : 80%; }
+sub,
+sup,
+small { font-size : 80%; }
 
 p { word-wrap: break-word; }
 
@@ -198,9 +181,7 @@ blockquote {
 margin: 0 0 20px 0; padding: 10px;
 font-size: 1rem;
 border-left: 8px ridge #909090;
-}
-
-blockquote > .right {
+} blockquote > .right {
 margin: 0 0 20px 0; padding: 10px;
 font-size: 1rem;
 border-right: 8px ridge #909090;
@@ -283,9 +264,7 @@ nav a { text-align : center; }
 /* display */
 .d-none { display : none; }
 
-header, footer,
-section, nav, article, aside,
-main, menu, .d-block { display : block; }
+header,footer, section, nav, article, aside, main, menu, .d-block { display : block; }
 
 .d-inline { display : inline; }
 
@@ -300,124 +279,84 @@ progress { display : inline-block; }
 .f-row {
 -webkit-flex-direction: row;
 flex-direction: row;
-}
-
-.f-row-reverse {
+} .f-row-reverse {
 -webkit-flex-direction: row-reverse;
 flex-direction: row-reverse;
-}
-
-.f-column {
+} .f-column {
 -webkit-flex-direction: column;
 flex-direction: column;
-}
-
-.f-column-reverse {
+} .f-column-reverse {
 -webkit-flex-direction: column-reverse;
 flex-direction: column-reverse;
-}
-
-.j-flex-start {
+} .j-flex-start {
 -webkit-justify-content: flex-start;
 justify-content: flex-start;
-}
-
-.j-flex-end {
+} .j-flex-end {
 -webkit-justify-content: flex-end;
 justify-content: flex-end;
-}
-
-.j-center {
+} .j-center {
 -webkit-justify-content: center;
 justify-content: center;
-}
-
-.j-space-between {
+} .j-space-between {
 -webkit-justify-content: space-between;
 justify-content: space-between;
-}
-
-.j-space-around {
+} .j-space-around {
 -webkit-justify-content: space-around;
 justify-content: space-around;
-}
-
-.a-stretch {
+} .a-stretch {
 -webkit-align-items: stretch;
 -ms-align-items: stretch;
 -o-align-items: stretch;
 align-items: stretch;
-}
-
-.a-flex-start {
+} .a-flex-start {
 -webkit-align-items: flex-start;
 align-items: flex-start;
-}
-
-.a-center {
+} .a-center {
 -webkit-align-items: center;
 -ms-align-items: center;
 -o-align-items: center;
 align-items: center;
-}
-
-.a-baseline {
+} .a-baseline {
 -webkit-align-items: baseline;
 -ms-align-items: baseline;
 -o-align-items: baseline;
 align-items: baseline;
-}
-
-.w-wrap {
+} .w-wrap {
 -webkit-flex-wrap: wrap;
 -ms-flex-wrap: wrap;
 -o-flex-wrap: wrap;
 flex-wrap: wrap;
-}
-
-.w-nowrap {
+} .w-nowrap {
 -webkit-flex-wrap: nowrap;
 -ms-flex-wrap: nowrap;
 -o-flex-wrap: nowrap;
 flex-wrap: nowrap;
-}
-
-.w-wrap-reverse {
+} .w-wrap-reverse {
 -webkit-flex-wrap: wrap-reverse;
 -ms-flex-wrap: wrap-reverse;
 -o-flex-wrap: wrap-reverse;
 flex-wrap: wrap-reverse;
-}
-
-.f-f-stretch {
+} .f-f-stretch {
 -webkit-flex-wrap: wrap;
 flex-wrap: wrap;
 -webkit-align-content: stretch;
 align-content: stretch;
-}
-
-.f-flex-start {
+} .f-flex-start {
 -webkit-flex-wrap: wrap;
 flex-wrap: wrap;
 -webkit-align-content: flex-start;
 align-content: flex-start;
-}
-
-.f-flex-end {
+} .f-flex-end {
 -webkit-flex-wrap: wrap;
 flex-wrap: wrap;
 -webkit-align-content: flex-end;
 align-content: flex-end;
-}
-
-.f-f-space-between {
+} .f-f-space-between {
 -webkit-flex-wrap: wrap;
 flex-wrap: wrap;
 -webkit-align-content: space-between;
 align-content: space-between;
-}
-
-.f-f-space-around {
+} .f-f-space-around {
 -webkit-flex-wrap: wrap-reverse;
 flex-wrap: wrap-reverse;
 -webkit-align-content: space-around;
@@ -483,61 +422,88 @@ color : rgb(255, 255, 255);
 /* end › spacing */
 
 /* border */
-.binset { border-style : inset; }
-.bsolid { border-style : solid; }
-.bridge { border-style : ridge; }
-.bnone { border-style : none; }
-.boutset { border-style : outset; }
-.bdotted { border-style : dotted; }
-.bdouble { border-style : double; }
-.bhidden { border-style : hidden; }
-.bgroove { border-style : groove; }
-.bdashed { border-style : dashed; }
-.bmix { border-style : dotted dashed solid double; }
+[class|="bd"] { margin: 10px; padding: 10px; border: 5px;
+} .bd-dotted { border: dotted;
+} .bd-dashed { border: dashed;
+} .bd-solid { border: solid;
+} .bd-double { border: double;
+} .bd-groove { border: groove;
+} .bd-ridge { border: ridge;
+} .bd-inset { border-style: inset;
+} .bd-outset { border-style: outset;
+} .bd-none { border-style: none;
+} .bd-hidden { border-style: hidden;
+} .bd-mix { border-style: dotted dashed solid double;}
 /* end › border */
 
 /* outline */
 .oinset {
 -webkit-outline-style : inset;
 outline-style : inset;
-}
-
-.osolid {
+} .osolid {
 -webkit-outline-style : solid;
 outline-style : solid;
-}
-
-.oridge {
+} .oridge {
 -webkit-outline-style : ridge;
 outline-style : ridge;
-}
-
-.ooutset {
+} .ooutset {
 -webkit-outline-style : outset;
 outline-style : outset;
-}
-
-.odotted {
+} .odotted {
 -webkit-outline-style : dotted;
 outline-style : dotted;
-}
-
-.odouble {
+} .odouble {
 -webkit-outline-style : double;
 outline-style : double;
-}
-
-.ogroove {
+} .ogroove {
 -webkit-outline-style : groove;
 outline-style : groove;
-}
-
-.odashed {
+} .odashed {
 -webkit-outline-style : dashed;
 outline-style : dashed;
 }
 /* end › outline */
 
+ span.crosshair { cursor: crosshair;
+} span.help { cursor: help;
+} span.wait { cursor: wait;
+} span.alias { cursor: alias;
+} span.all-scroll { cursor: all-scroll;
+} span.auto { cursor: auto;
+} span.cell { cursor: cell;
+} span.context-menu { cursor: context-menu;
+} span.col-resize { cursor: col-resize;
+} span.copy { cursor: copy;
+} span.crosshair { cursor: crosshair;
+} span.default { cursor: default;
+} span.e-resize { cursor: e-resize;
+} span.n-resize { cursor: n-resize;
+} span.ne-resize { cursor: ne-resize;
+} span.ew-resize { cursor: ew-resize;
+} span.grab { cursor: grab;
+} span.grabbing { cursor: grabbing;
+} span.move { cursor: move;
+} span.nesw-resize { cursor: nesw-resize;
+} span.ns-resize	 { cursor: ns-resize	;
+} span.nw-resize { cursor: nw-resize;
+} span.nwse-resize { cursor: nwse-resize;
+} span.no-drop { cursor: no-drop;
+} span.none { cursor: none;
+} span.not-allowed { cursor: not-allowed;
+} span.pointer { cursor: pointer;
+} span.progress { cursor: progress;
+} span.row-resize { cursor: row-resize;
+} span.s-resize { cursor: s-resize;
+} span.se-resize { cursor: se-resize;
+} span.sw-resize { cursor: sw-resize;
+} span.URL { cursor: URL;
+} span.vertical-text { cursor: vertical-text;
+} span.w-resize { cursor: w-resize;
+} span.zoom-in { cursor: zoom-in;
+} span.zoom-out { cursor: zoom-out;
+} span.initial { cursor: initial;
+} span.inherit { cursor: inherit;
+}
 /* list */
 .lnone { list-style : none; }
 .lcircle { list-style : circle; }
@@ -556,72 +522,46 @@ img .opacity-3 {
 opacity: 0.3;
 filter: alpha(opacity=30);
 -webkit-filter: alpha(opacity=30);
-}
-
-img .opacity-6 {
+} img .opacity-6 {
 opacity: 0.6;
 filter: alpha(opacity=60);
 -webkit-filter: alpha(opacity=60);
-}
-
-img .opacity-9 {
+} img .opacity-9 {
 opacity: 0.9;
 filter: alpha(opacity=90);
 -webkit-filter: alpha(opacity=90);
-}
-
-img .opacity-1 {
+} img .opacity-1 {
 opacity: 1.0;
 filter: alpha(opacity=100);
 -webkit-filter: alpha(opacity=100);
-}
-
-img.blur {
+} img.blur {
 -webkit-filter: blur(4px);
 filter: blur(4px);
-}
-
-img.brightness {
+} img.brightness {
 -webkit-filter: brightness(0.30);
 filter: brightness(0.30);
-}
-
-img.contrast {
+} img.contrast {
 -webkit-filter: contrast(180%);
 filter: contrast(180%);
-}
-
-img.grayscale {
+} img.grayscale {
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
-}
-
-img.huerotate {
+} img.huerotate {
 -webkit-filter: hue-rotate(180deg);
 filter: hue-rotate(180deg);
-}
-
-img.invert {
+} img.invert {
 -webkit-filter: invert(100%);
 filter: invert(100%);
-}
-
-img.opacity {
+} img.opacity {
 -webkit-filter: opacity(50%);
 filter: opacity(50%);
-}
-
-img.saturate {
+} img.saturate {
 -webkit-filter: saturate(7);
 filter: saturate(7);
-}
-
-img.sepia {
+} img.sepia {
 -webkit-filter: sepia(100%);
 filter: sepia(100%);
-}
-
-img.shadow {
+} img.shadow {
 -webkit-filter: drop-shadow(8px 8px 10px green);
 filter: drop-shadow(8px 8px 10px green);
 }
@@ -636,17 +576,13 @@ column-count : 2;
 column-span : all;
 column-gap : 40px;
 column-rule : #909090 1px solid;
-}
-
-.tcolumn_3 {
+} .tcolumn_3 {
 border : none;
 padding : 15px;
 column-count : 3;
 column-span : all;
 column-gap : 40px;
-}
-
-.tcolumn_4 {
+} .tcolumn_4 {
 border : none;
 padding : 15px;
 column-count : 4;
@@ -661,9 +597,7 @@ position: relative;
 display: inline-block;
 border-bottom: 1px dotted #ccc;
 color: #006080;
-}
-
-.tooltip > .tooltiptext {
+} .tooltip > .tooltiptext {
 visibility: hidden;
 position: absolute;
 width: 120px;
@@ -674,9 +608,7 @@ border-radius: 6px;
 z-index: 1;
 opacity: 0;
 transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
+} .tooltip:hover .tooltiptext {
 visibility: visible;
 opacity: 1;
 }
@@ -685,9 +617,7 @@ opacity: 1;
 bottom: 125%;
 left: 50%;
 margin-left: -60px;
-}
-
-.tooltip-top::after {
+} .tooltip-top::after {
 content: "";
 position: absolute;
 top: 100%;
@@ -701,9 +631,7 @@ border-color: #555 transparent transparent transparent;
 top: 135%;
 left: 50%;
 margin-left: -60px;
-}
-
-.tooltip-bottom::after {
+} .tooltip-bottom::after {
 content: "";
 position: absolute;
 bottom: 100%;
@@ -717,9 +645,7 @@ border-color: transparent transparent #555 transparent;
 top: -5px;
 bottom:auto;
 right: 128%;
-}
-
-.tooltip-left::after {
+} .tooltip-left::after {
 content: "";
 position: absolute;
 top: 50%;
@@ -727,14 +653,12 @@ left: 100%;
 margin-top: -5px;
 border: 5px solid;
 border-color: transparent transparent transparent #555;
-}
+} 
 
 .tooltip-right {
 top: -5px;
 left: 125%;
-}
-
-.tooltip-right::after {
+} .tooltip-right::after {
 content: "";
 position: absolute;
 top: 50%;
@@ -743,3 +667,9 @@ margin-top: -5px;
 border: 5px solid;
 border-color: transparent #555 transparent transparent;
 }
+
+/*
+* CSS › Powered by AsaUz
+* CSS › Edit: 03.05.2019
+* Link: https://t.me/asa_uz
+*/
