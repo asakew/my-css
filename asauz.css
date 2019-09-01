@@ -315,7 +315,16 @@ mark {
 }
 
 /* text › weight */
-t-weight: 300
+.f100 {
+    font-weight: 100
+}
+
+.f200 {
+    font-weight: 200
+}
+
+.f300 {
+    font-weight: 300
 }
 
 .f400 {
@@ -398,13 +407,16 @@ audio,canvas,progress,video {
     display: inline-block
 }
 
+/* flex */
 .d-flex {
     display: flex
 }
 
-/* flex */
+.f-row {
     -ms-align-items: stretch;
+    -webkit-flex-direction: row;
     -o-align-items: stretch;
+    flex-direction: row;
     align-items: stretch
 }
 
@@ -575,8 +587,18 @@ audio,canvas,progress,video {
 }
 
 /* border */
+[class|=bd] {
+    margin: 10px;
+    padding: 10px;
+    border: 5px
+}
 
-    border: dashed
+.bd-dashed {
+	border: dashed	
+}
+
+.bd-dotted {
+    border: dotted
 }
 
 .bd-solid {
@@ -656,6 +678,7 @@ audio,canvas,progress,video {
     outline-style: dashed
 }
 
+/* cursor */
 .c-help {
     cursor: help
 }
